@@ -1,4 +1,59 @@
  /*---------------------------------------------- Body  -----------------------------------------------------------*/
  body {
-     background-color: aquamarine;
+     background-color: hsl(257, 40%, 49%); 
+     background-image: url('images/bg-desktop.svg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     font-family: 'poppins', sans-serif;
+     margin-left: 3rem;
+     margin-right: 3rem;
  }
+
+   /*---------------------------------------------- Header  -----------------------------------------------------------*/
+header {
+    padding-top: 3rem;
+    
+    margin-bottom: 5rem;
+}
+
+
+  /*---------------------------------------------- Main  -----------------------------------------------------------*/
+
+  main {
+      display: flex;
+      flex-grow: 1;
+      gap: 5rem;
+  }
+
+  .main-content {
+      color: white;
+      max-width: 50%;
+  }
+
+  .main-button {
+    font-family: 'poppins', sans-serif;
+    color: Purple;
+    background-color: white;
+    border-style: none;
+    border-radius: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
+    box-shadow: 4px 5px 8px rgb(43, 34, 34);
+  }
+
+  /*---------------------------------------------- Section  -----------------------------------------------------------*/
+
+  section {
+      display: flex;
+      justify-content: flex-end;
+  }
+
+  .icons {
+      padding: 2px;
+      border: 1px solid white;
+      border-radius: 20px;
+      height: 2rem;
+      margin-left: 4px;
+  }
